@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		038234961CF2FBF1C06FF044 /* Pods-ShMath_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShMath_Tests.release.xcconfig"; path = "Target Support Files/Pods-ShMath_Tests/Pods-ShMath_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0A0FC0B02805FC25A1CD4AA8 /* Pods-ShMath_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShMath_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ShMath_Tests/Pods-ShMath_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		101FAB2F8B1A7639FE5C0AE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		12000E1BEEADE21113CE584B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		101FAB2F8B1A7639FE5C0AE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		12000E1BEEADE21113CE584B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ShMath_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShMath_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		AC73F12EA8E8287007FB19A7 /* Pods-ShMath_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShMath_Example.debug.xcconfig"; path = "Target Support Files/Pods-ShMath_Example/Pods-ShMath_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B8431EC491AB41EA996BAE09 /* Pods_ShMath_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShMath_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB0CEBB7E55497B6F59B5EE /* Pods_ShMath_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShMath_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8F03CED3E8F2D36E9D881B9 /* ShMath.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ShMath.podspec; path = ../ShMath.podspec; sourceTree = "<group>"; };
+		F8F03CED3E8F2D36E9D881B9 /* ShMath.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ShMath.podspec; path = ../ShMath.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				0A0FC0B02805FC25A1CD4AA8 /* Pods-ShMath_Tests.debug.xcconfig */,
 				038234961CF2FBF1C06FF044 /* Pods-ShMath_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
